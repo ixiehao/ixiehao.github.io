@@ -9,7 +9,8 @@
     <meta property="og:description" content="Three focused Swift apps for video and images — fast, local, and private." />
     <meta property="og:type" content="website" />
     <title>iXiehao — Native macOS utilities</title>
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="assets/brand/io-favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="assets/brand/io-logo.png" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -17,7 +18,7 @@
 
     <header class="site-header" id="top">
       <a class="wordmark" href="#top" aria-label="iXiehao home">
-        <span class="io-mark" aria-hidden="true">io</span>
+        <img class="brand-symbol" src="assets/brand/io-logo.png" width="512" height="512" alt="" />
         <span>iXiehao</span>
       </a>
       <nav aria-label="Primary navigation">
@@ -28,7 +29,8 @@
     </header>
 
     <main>
-      <section class="hero" aria-labelledby="hero-title">
+      <section class="hero-bleed" aria-labelledby="hero-title">
+        <div class="hero">
         <div class="hero-copy">
           <p class="overline">iXiehao / Independent developer</p>
           <h1 id="hero-title">Native macOS utilities.<br /><span>Made to stay out of the way.</span></h1>
@@ -57,6 +59,7 @@
           </a>
           <p class="shelf-note"><span></span> 03 native apps · macOS 13+ · Universal</p>
         </div>
+        </div>
       </section>
 
       <section class="apps-section" id="apps" aria-labelledby="apps-title">
@@ -70,9 +73,6 @@
 
         <div class="app-grid">
           <article class="app-card">
-            <div class="screen screen-shotmap">
-              <img src="assets/projects/workspace-en.webp" width="1400" height="995" alt="ShotMap workspace displaying video storyboard frames" />
-            </div>
             <div class="app-card-body">
               <div class="app-title-row">
                 <img class="app-icon" src="assets/projects/app-icon.png" width="256" height="256" alt="" />
@@ -88,9 +88,6 @@
           </article>
 
           <article class="app-card">
-            <div class="screen screen-lumaview">
-              <img src="assets/projects/lumaview-browse.png" width="1394" height="1826" loading="lazy" alt="LumaView browsing a folder of images" />
-            </div>
             <div class="app-card-body">
               <div class="app-title-row">
                 <img class="app-icon" src="assets/projects/lumaview-app-icon.png" width="512" height="512" alt="" />
@@ -106,9 +103,6 @@
           </article>
 
           <article class="app-card">
-            <div class="screen screen-mp4flow">
-              <img src="assets/projects/mp4flow-working-screen-en.png" width="1960" height="1306" loading="lazy" alt="MP4Flow converting video in its native macOS interface" />
-            </div>
             <div class="app-card-body">
               <div class="app-title-row">
                 <img class="app-icon" src="assets/projects/mp4flow-app-icon.png" width="1024" height="1024" alt="" />
@@ -147,22 +141,26 @@
         </div>
       </section>
 
-      <section class="beliefs" aria-label="Development principles">
+      <section class="beliefs-band" aria-label="Development principles">
+        <div class="beliefs">
         <div><strong>Native.</strong><span>Built for the platform it serves.</span></div>
         <div><strong>Local.</strong><span>Your files stay on your device.</span></div>
         <div><strong>Open.</strong><span>The implementation is shared.</span></div>
+        </div>
       </section>
 
-      <section class="closing" aria-labelledby="closing-title">
+      <section class="closing-band" aria-labelledby="closing-title">
+        <div class="closing">
         <p class="overline">Work in public</p>
         <h2 id="closing-title">Follow the work<br /><span>as it ships.</span></h2>
         <p>Source, releases, and the next focused utility all start on GitHub.</p>
         <a class="button button-light" href="https://github.com/ixiehao">Visit github.com/ixiehao <span aria-hidden="true">↗</span></a>
+        </div>
       </section>
     </main>
 
     <footer>
-      <a class="wordmark" href="#top" aria-label="Back to top"><span class="io-mark" aria-hidden="true">io</span><span>iXiehao</span></a>
+      <a class="wordmark" href="#top" aria-label="Back to top"><img class="brand-symbol" src="assets/brand/io-logo.png" width="512" height="512" alt="" /><span>iXiehao</span></a>
       <p>Independent developer · Open-source builder</p>
       <a href="https://github.com/ixiehao">GitHub <span aria-hidden="true">↗</span></a>
     </footer>
