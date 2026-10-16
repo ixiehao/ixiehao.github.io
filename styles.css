@@ -52,17 +52,20 @@ footer,
 .beliefs,
 .closing { width: min(1280px, calc(100% - 64px)); margin-inline: auto; }
 
-.site-header {
+.site-header-band {
   position: sticky;
   z-index: 10;
   top: 0;
+  border-bottom: 1px solid var(--line);
+  background: color-mix(in srgb, var(--canvas) 92%, transparent);
+  backdrop-filter: blur(14px);
+}
+
+.site-header {
   display: flex;
   min-height: 72px;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid var(--line);
-  background: color-mix(in srgb, var(--canvas) 92%, transparent);
-  backdrop-filter: blur(14px);
 }
 
 .wordmark {
