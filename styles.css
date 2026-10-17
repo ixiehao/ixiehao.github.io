@@ -248,11 +248,11 @@ h1 span,
 .data-links > a:last-child:hover { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
 
 .beliefs-band { margin-bottom: 7.5rem; border-block: 1px solid #cddded; background: var(--blue-soft); }
-.beliefs { display: grid; grid-template-columns: repeat(3, 1fr); overflow: hidden; margin-block: 0; }
-.beliefs div { display: grid; gap: .35rem; padding: 1.65rem 1.6rem; border-right: 1px solid #cddded; }
+.beliefs { display: grid; grid-template-columns: repeat(4, 1fr); overflow: hidden; margin-block: 0; }
+.beliefs div { display: grid; align-content: start; gap: .55rem; min-height: 156px; padding: 2rem 1.6rem; border-right: 1px solid #cddded; }
 .beliefs div:last-child { border-right: 0; }
-.beliefs strong { color: var(--ink); font-size: 1.05rem; letter-spacing: -.03em; }
-.beliefs span { color: var(--muted); font-size: .82rem; }
+.beliefs strong { color: var(--ink); font-size: clamp(1.65rem, 2.3vw, 2.45rem); font-weight: 790; letter-spacing: -.065em; line-height: .94; }
+.beliefs span { max-width: 15rem; color: var(--muted); font-size: .86rem; line-height: 1.45; }
 
 .closing-band { margin-bottom: 4rem; background: var(--night); }
 .closing { padding: clamp(3rem, 6vw, 5.5rem); color: #f9fbff; }
@@ -267,6 +267,9 @@ footer p { margin: 0; color: var(--muted); font-size: .78rem; }
   .app-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .app-card:last-child { grid-column: span 2; }
   .data-section { grid-template-columns: 1fr; gap: 2.25rem; }
+  .beliefs { grid-template-columns: repeat(2, 1fr); }
+  .beliefs div:nth-child(2n) { border-right: 0; }
+  .beliefs div:nth-child(-n + 2) { border-bottom: 1px solid #cddded; }
 }
 
 @media (max-width: 720px) {
@@ -288,7 +291,9 @@ footer p { margin: 0; color: var(--muted); font-size: .78rem; }
   .data-links { flex-direction: row; gap: 1rem; }
   .beliefs-band { margin-bottom: 4rem; }
   .beliefs { grid-template-columns: 1fr; }
-  .beliefs div { grid-template-columns: 5.2rem 1fr; align-items: baseline; border-right: 0; border-bottom: 1px solid #cddded; }
+  .beliefs div { grid-template-columns: 7.3rem 1fr; min-height: 0; align-items: baseline; padding: 1.25rem 0; border-right: 0; border-bottom: 1px solid #cddded; }
+  .beliefs div:nth-child(-n + 2) { border-bottom: 1px solid #cddded; }
+  .beliefs strong { font-size: clamp(1.45rem, 7vw, 2rem); }
   .beliefs div:last-child { border-bottom: 0; }
   .closing { margin-bottom: 2.25rem; }
   footer { flex-wrap: wrap; justify-content: flex-start; padding-block: 1.5rem; }
