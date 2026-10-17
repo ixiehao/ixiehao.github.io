@@ -194,12 +194,13 @@ h1 span,
 .shelf-note span { width: 7px; height: 7px; border-radius: 50%; background: #5bd5a6; box-shadow: 0 0 0 4px rgba(91,213,166,.12); }
 
 .apps-section { padding-block: 8.5rem 7.5rem; }
-.section-intro { display: grid; grid-template-columns: .75fr 1.25fr; gap: 2rem; margin-bottom: 3rem; }
+.section-intro { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, .62fr); gap: clamp(2rem, 7vw, 7rem); align-items: end; margin-bottom: 3rem; }
 .section-intro h2,
 .data-heading h2,
 .closing h2 { margin-bottom: 1rem; font-size: clamp(2.4rem, 4.2vw, 4.45rem); font-weight: 760; line-height: .96; }
-.section-intro > div > p,
+.section-intro .section-summary,
 .data-heading > p { max-width: 550px; margin-bottom: 0; color: var(--muted); font-size: 1.02rem; }
+.section-intro .section-summary { margin-bottom: .3rem; }
 
 .app-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
 .app-card {
