@@ -152,6 +152,8 @@ h1 span,
 .text-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 .text-link.light { color: #c8d7ed; }
 .text-link.light:hover { color: #fff; }
+.ui-icon { display: inline-block; width: 1em; height: 1em; flex: 0 0 auto; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; vertical-align: -.17em; }
+.text-link, .data-links a, .site-header nav a { display: inline-flex; align-items: center; gap: .42em; }
 
 .brand-rail {
   display: grid;
@@ -202,7 +204,7 @@ h1 span,
 .featured-item img { width: 46px; height: 46px; border-radius: 11px; }
 .featured-item strong { display: block; font-size: .95rem; letter-spacing: -.025em; }
 .featured-item small { display: block; overflow: hidden; color: #9eb2ce; font-size: .74rem; text-overflow: ellipsis; white-space: nowrap; }
-.featured-item b { color: #8eb7ff; font-size: 1rem; }
+.featured-icon { display: inline-flex; align-items: center; color: #8eb7ff; }
 .stack-footnote { margin: .8rem .78rem 0; color: #8298b9; font-family: var(--mono); font-size: .63rem; letter-spacing: .05em; text-transform: uppercase; }
 
 .apps-section { padding-block: clamp(5.5rem, 9vw, 8rem); }
