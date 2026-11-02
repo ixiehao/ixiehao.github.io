@@ -4,6 +4,19 @@ The personal site of [iXiehao](https://github.com/ixiehao): an independent devel
 
 This is a dependency-free static site, published with GitHub Pages at <https://ixiehao.github.io/>.
 
+## Projects
+
+| Project | What it does | Get it |
+| --- | --- | --- |
+| [ShotMap](https://ixiehao.github.io/ShotMap/) | Turn a video's key moments into a storyboard image; refine frames on a visual timeline. macOS 13+. | [Latest release](https://github.com/ixiehao/ShotMap/releases/latest) |
+| [LumaView](https://ixiehao.github.io/LumaView/en/) | Browse image folders, inspect EXIF, and read PDFs without importing a library. macOS 12+. | [Latest release](https://github.com/ixiehao/LumaView/releases/latest) |
+| [MP4Flow](https://ixiehao.github.io/MP4Flow/en/) | Convert, trim, crop, rotate, and merge videos. macOS 13+; requires FFmpeg and ffprobe installed separately. | [Latest release](https://github.com/ixiehao/MP4Flow/releases/latest) |
+| [MacBetter](https://ixiehao.github.io/MacBetter/) | Find free, open-source Mac apps with official links, licenses, and practical requirements. | [Source](https://github.com/ixiehao/MacBetter) |
+| [VehicleName](https://ixiehao.github.io/VehicleName/) | Car brands, models, terms, and regional aliases in four languages. | [Source](https://github.com/ixiehao/VehicleName) |
+| [MotorcycleName](https://ixiehao.github.io/MotorcycleName/) | Motorcycle brands, models, classes, and regional aliases in four languages. | [Source](https://github.com/ixiehao/MotorcycleName) |
+
+The three Mac apps are free and open source, run on Apple silicon and Intel, and include English, Chinese, French, Russian, Spanish, Japanese, and Korean. See each release page for installation instructions and requirements.
+
 ## Repository layout
 
 - `website/` — website source: HTML, CSS, branding and project icons.
