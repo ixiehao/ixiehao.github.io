@@ -1,0 +1,15 @@
+{
+  "name": "ixiehao-github-io-website-checks",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "check:website": "node --check scripts/serve-website-tests.mjs",
+    "test:website": "playwright test",
+    "test:website:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1"
+  }
+}
