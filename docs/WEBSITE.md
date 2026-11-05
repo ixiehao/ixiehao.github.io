@@ -51,6 +51,8 @@ Download `website-report-*` from the workflow run's **Artifacts**; each browser/
 
 ## Deployment
 
+The domain-root `website/robots.txt` applies to all projects under `ixiehao.github.io`, including MacBetter. Keep MacBetter's sitemap declaration here; a `/MacBetter/robots.txt` cannot replace the root policy. The root `llms.txt` points readers to the project-specific catalog. These discovery files do not guarantee search indexing or AI citations and do not add analytics.
+
 The workflow uploads `website/` and deploys it as the site root. It runs on relevant changes to `main` and supports manual dispatch. Pages is configured to use **GitHub Actions**, replacing the former branch-root publishing. When recreating the repository or restoring settings, choose **Settings → Pages → Build and deployment → Source → GitHub Actions**; adding a workflow file alone does not change this setting.
 
 Only publish when authorized. After deployment, read the public URL back and verify resources, navigation and downloads. A successful local preview is not proof that the public site has updated.

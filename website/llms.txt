@@ -1,0 +1,14 @@
+# iXiehao
+
+> Independent developer and open-source builder. This is the project index for iXiehao's public software and data projects.
+
+## Projects
+
+- [MacBetter](https://ixiehao.github.io/MacBetter/llms.txt): A maintained directory of free and open-source macOS apps, in English, Simplified Chinese and Japanese, with official links and project-specific notes.
+- [LumaView](https://ixiehao.github.io/LumaView/): Native macOS image and PDF viewer.
+- [MP4Flow](https://ixiehao.github.io/MP4Flow/): Local MP4 conversion and lightweight video editing.
+- [ShotMap](https://ixiehao.github.io/ShotMap/): Local video-to-storyboard sheets.
+
+## Optional
+
+- [GitHub profile](https://github.com/ixiehao): Source repositories and project documentation.
