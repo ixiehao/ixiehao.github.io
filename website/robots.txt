@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://ixiehao.github.io/sitemap.xml
+Sitemap: https://ixiehao.github.io/MacBetter/sitemap.xml
