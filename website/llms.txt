@@ -1,14 +1,18 @@
 # iXiehao
 
-> Independent developer and open-source builder. This is the project index for iXiehao's public software and data projects.
+> Free, open-source Mac apps by iXiehao. Browse images with LumaView, convert videos with MP4Flow, and create video storyboards with ShotMap.
+
+## Pages
+
+- [English](https://ixiehao.github.io/index.md)
 
 ## Projects
 
-- [MacBetter](https://ixiehao.github.io/MacBetter/llms.txt): A maintained directory of free and open-source macOS apps, in English, Simplified Chinese and Japanese, with official links and project-specific notes.
-- [LumaView](https://ixiehao.github.io/LumaView/): Native macOS image and PDF viewer.
-- [MP4Flow](https://ixiehao.github.io/MP4Flow/): Local MP4 conversion and lightweight video editing.
-- [ShotMap](https://ixiehao.github.io/ShotMap/): Local video-to-storyboard sheets.
+- [MacBetter](https://ixiehao.github.io/MacBetter/llms.txt): Free and open-source macOS app directory; English, Simplified Chinese and Japanese.
+- [LumaView](https://ixiehao.github.io/LumaView/llms.txt): Native macOS image and PDF viewer.
+- [MP4Flow](https://ixiehao.github.io/MP4Flow/llms.txt): Local MP4 conversion and lightweight video editing.
+- [ShotMap](https://ixiehao.github.io/ShotMap/llms.txt): Local video-to-storyboard sheets.
 
 ## Optional
 
-- [GitHub profile](https://github.com/ixiehao): Source repositories and project documentation.
+- [Source and project documentation](https://github.com/ixiehao/ixiehao.github.io)

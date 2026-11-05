@@ -3,3 +3,6 @@ Allow: /
 
 Sitemap: https://ixiehao.github.io/sitemap.xml
 Sitemap: https://ixiehao.github.io/MacBetter/sitemap.xml
+Sitemap: https://ixiehao.github.io/LumaView/sitemap.xml
+Sitemap: https://ixiehao.github.io/MP4Flow/sitemap.xml
+Sitemap: https://ixiehao.github.io/ShotMap/sitemap.xml
