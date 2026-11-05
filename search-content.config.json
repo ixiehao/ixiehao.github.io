@@ -1,0 +1,39 @@
+{
+  "name": "iXiehao",
+  "site_url": "https://ixiehao.github.io/",
+  "directory": "website",
+  "source_url": "https://github.com/ixiehao/ixiehao.github.io",
+  "key_file": "website/indexnow-key.txt",
+  "languages": [
+    "en"
+  ],
+  "root_sitemaps": [
+    "https://ixiehao.github.io/sitemap.xml",
+    "https://ixiehao.github.io/MacBetter/sitemap.xml",
+    "https://ixiehao.github.io/LumaView/sitemap.xml",
+    "https://ixiehao.github.io/MP4Flow/sitemap.xml",
+    "https://ixiehao.github.io/ShotMap/sitemap.xml"
+  ],
+  "projects": [
+    {
+      "name": "MacBetter",
+      "url": "https://ixiehao.github.io/MacBetter/llms.txt",
+      "description": "Free and open-source macOS app directory; English, Simplified Chinese and Japanese."
+    },
+    {
+      "name": "LumaView",
+      "url": "https://ixiehao.github.io/LumaView/llms.txt",
+      "description": "Native macOS image and PDF viewer."
+    },
+    {
+      "name": "MP4Flow",
+      "url": "https://ixiehao.github.io/MP4Flow/llms.txt",
+      "description": "Local MP4 conversion and lightweight video editing."
+    },
+    {
+      "name": "ShotMap",
+      "url": "https://ixiehao.github.io/ShotMap/llms.txt",
+      "description": "Local video-to-storyboard sheets."
+    }
+  ]
+}
