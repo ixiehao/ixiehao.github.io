@@ -16,7 +16,7 @@ The site is dependency-free; no npm installation or framework build is needed.
 
 Verify project names, descriptions, system requirements and download destinations against their own maintained repositories. Do not make the number of projects part of permanent copy. Keep privacy and performance claims factual.
 
-The homepage covers the three released Mac apps, MacBetter, and the two vehicle-name datasets. Do not list private or unreleased projects as available products. The homepage remains English; the seven-language statement describes the apps, not this website. Keep each app's requirements separate: LumaView supports macOS 12+, while ShotMap and MP4Flow require macOS 13+. MP4Flow needs a separate FFmpeg and ffprobe installation.
+The English homepage covers the released Mac apps, MacBetter, and the vehicle-name datasets. List public releases and keep system, architecture, language, and dependency details specific to each app.
 
 Download actions use each project's `releases/latest` URL. Website actions go to the English page where available. Keep project icons in sync with their official sites, use appropriately sized existing exports, and record sources in [project asset notes](../website/assets/PROJECT-ASSETS.md). The stylesheet query parameter is the first 12 characters of its SHA-256 digest; update the homepage and 404 page together after CSS changes.
 

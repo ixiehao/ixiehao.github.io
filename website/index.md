@@ -1,6 +1,6 @@
 # iXiehao — Free, open-source Mac apps
 
-> Free, open-source Mac apps by iXiehao. Browse images with LumaView, convert videos with MP4Flow, and create video storyboards with ShotMap.
+> Free, open-source Mac apps by iXiehao for browsing images, converting videos, creating storyboards and animations, and working with NTFS drives.
 
 <https://ixiehao.github.io/>
 
@@ -8,29 +8,29 @@ iXiehao / Independent developer
 
 ## Useful tools. Made for Mac.
 
-I build free, open-source Mac apps for browsing images, converting videos, and turning clips into storyboard images. Simple tools for the things you do every day.
+I build free, open-source Mac apps for images, video, and external drives. Browse photos, convert media, make storyboards or animations, and work with NTFS drives.
 
 [Find an app](https://ixiehao.github.io/#apps) [GitHub](https://github.com/ixiehao)
 
 - **Open source.** Free, with code on GitHub.
 
-- **Native.** Apple silicon & Intel.
+- **For Mac.** Apple silicon and Intel options.
 
-- **Local.** Your media stays on your Mac.
+- **Local.** Your files stay on your Mac.
 
-- **7 languages.** All in the same download.
+- **Multilingual.** Language options vary by app.
 
 Featured macOS apps
 
- [**ShotMap** See a video in one image](https://ixiehao.github.io/ShotMap/) [**LumaView** Browse images and PDFs](https://ixiehao.github.io/LumaView/en/) [**MP4Flow** Convert and edit videos](https://ixiehao.github.io/MP4Flow/en/)
+ [**ShotMap** See a video in one image](https://ixiehao.github.io/ShotMap/) [**LumaView** Browse images and PDFs](https://ixiehao.github.io/LumaView/en/) [**MP4Flow** Convert and edit videos](https://ixiehao.github.io/MP4Flow/en/) [**Any2WebP** Convert images and make animations](https://ixiehao.github.io/Any2WebP/) [**ezNTFS** Read and write NTFS drives](https://ixiehao.github.io/ezNTFS/)
 
 Free · Open source · No account required
 
-Native macOS apps
+macOS apps
 
 ### Pick the tool for the job.
 
-Browse a photo folder, make a video easier to share, or find a moment in an old clip. Your files stay on your Mac.
+Browse photos, convert videos and images, create animations, or use a Windows-formatted drive on your Mac.
 
 Video storyboard
 
@@ -86,7 +86,43 @@ macOS 13+ · Apple silicon & Intel
 
 [Download](https://github.com/ixiehao/MP4Flow/releases/latest) [Website](https://ixiehao.github.io/MP4Flow/en/) [Source](https://github.com/ixiehao/MP4Flow)
 
-All three apps include English, 简体中文, Français, Русский, Español, 日本語, and 한국어. Downloads and installation instructions are on GitHub Releases.
+Image converter
+
+#### Any2WebP
+
+Convert images and build animations.
+
+Convert and compress images and animations. Combine still images, trim a video, or edit frames before exporting to WebP or GIF.
+
+- WebP / GIF export
+
+- Batch compression
+
+- Frame editor
+
+macOS 26+ · Apple silicon · FFmpeg and ffprobe for video
+
+[Download](https://github.com/ixiehao/Any2WebP/releases/latest) [Website](https://ixiehao.github.io/Any2WebP/) [Source](https://github.com/ixiehao/Any2WebP)
+
+NTFS drive utility
+
+#### ezNTFS
+
+Read and write NTFS drives on your Mac.
+
+Mount external NTFS drives with NTFS-3G and macFUSE. Verify file copies with SHA-256 and safely eject drives from the menu bar.
+
+- Read-write mounting
+
+- Verified copying
+
+- Safe eject
+
+macOS 14+ · Apple silicon · Requires macFUSE
+
+[Download](https://github.com/ixiehao/ezNTFS/releases/latest) [Website](https://ixiehao.github.io/ezNTFS/) [Source](https://github.com/ixiehao/ezNTFS)
+
+All apps include English, 简体中文, and 日本語. ShotMap, LumaView, and MP4Flow also include Français, Русский, Español, and 한국어.
 
 Mac app directory
 
