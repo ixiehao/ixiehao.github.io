@@ -1,6 +1,6 @@
 # iXiehao
 
-> Free, open-source Mac apps by iXiehao. Browse images with LumaView, convert videos with MP4Flow, and create video storyboards with ShotMap.
+> Free, open-source Mac apps by iXiehao for browsing images, converting videos, creating storyboards and animations, and working with NTFS drives.
 
 ## Pages
 
@@ -12,6 +12,8 @@
 - [LumaView](https://ixiehao.github.io/LumaView/llms.txt): Native macOS image and PDF viewer.
 - [MP4Flow](https://ixiehao.github.io/MP4Flow/llms.txt): Local MP4 conversion and lightweight video editing.
 - [ShotMap](https://ixiehao.github.io/ShotMap/llms.txt): Local video-to-storyboard sheets.
+- [Any2WebP](https://ixiehao.github.io/Any2WebP/): Image conversion, compression, and WebP or GIF animation editing.
+- [ezNTFS](https://ixiehao.github.io/ezNTFS/llms.txt): Read and write external NTFS drives on macOS.
 
 ## Optional
 

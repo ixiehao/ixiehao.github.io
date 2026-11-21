@@ -12,7 +12,9 @@
     "https://ixiehao.github.io/MacBetter/sitemap.xml",
     "https://ixiehao.github.io/LumaView/sitemap.xml",
     "https://ixiehao.github.io/MP4Flow/sitemap.xml",
-    "https://ixiehao.github.io/ShotMap/sitemap.xml"
+    "https://ixiehao.github.io/ShotMap/sitemap.xml",
+    "https://ixiehao.github.io/Any2WebP/sitemap.xml",
+    "https://ixiehao.github.io/ezNTFS/sitemap.xml"
   ],
   "projects": [
     {
@@ -34,6 +36,16 @@
       "name": "ShotMap",
       "url": "https://ixiehao.github.io/ShotMap/llms.txt",
       "description": "Local video-to-storyboard sheets."
+    },
+    {
+      "name": "Any2WebP",
+      "url": "https://ixiehao.github.io/Any2WebP/",
+      "description": "Image conversion, compression, and WebP or GIF animation editing."
+    },
+    {
+      "name": "ezNTFS",
+      "url": "https://ixiehao.github.io/ezNTFS/llms.txt",
+      "description": "Read and write external NTFS drives on macOS."
     }
   ]
 }

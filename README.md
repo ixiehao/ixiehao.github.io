@@ -11,11 +11,13 @@ This is a dependency-free static site, published with GitHub Pages at <https://i
 | [ShotMap](https://ixiehao.github.io/ShotMap/) | Turn a video's key moments into a storyboard image; refine frames on a visual timeline. macOS 13+. | [Latest release](https://github.com/ixiehao/ShotMap/releases/latest) |
 | [LumaView](https://ixiehao.github.io/LumaView/en/) | Browse image folders, inspect EXIF, and read PDFs without importing a library. macOS 12+. | [Latest release](https://github.com/ixiehao/LumaView/releases/latest) |
 | [MP4Flow](https://ixiehao.github.io/MP4Flow/en/) | Convert, trim, crop, rotate, and merge videos. macOS 13+; requires FFmpeg and ffprobe installed separately. | [Latest release](https://github.com/ixiehao/MP4Flow/releases/latest) |
+| [Any2WebP](https://ixiehao.github.io/Any2WebP/) | Convert and compress images or create WebP and GIF animations. macOS 26+ on Apple silicon. Video conversion requires FFmpeg and ffprobe. | [Latest release](https://github.com/ixiehao/Any2WebP/releases/latest) |
+| [ezNTFS](https://ixiehao.github.io/ezNTFS/) | Read and write external NTFS drives, verify copies, and safely eject drives. macOS 14+ on Apple silicon with macFUSE. | [Latest release](https://github.com/ixiehao/ezNTFS/releases/latest) |
 | [MacBetter](https://ixiehao.github.io/MacBetter/) | Find free, open-source Mac apps with official links, licenses, and practical requirements. | [Source](https://github.com/ixiehao/MacBetter) |
 | [VehicleName](https://ixiehao.github.io/VehicleName/) | Car brands, models, terms, and regional aliases in four languages. | [Source](https://github.com/ixiehao/VehicleName) |
 | [MotorcycleName](https://ixiehao.github.io/MotorcycleName/) | Motorcycle brands, models, classes, and regional aliases in four languages. | [Source](https://github.com/ixiehao/MotorcycleName) |
 
-The three Mac apps are free and open source, run on Apple silicon and Intel, and include English, Chinese, French, Russian, Spanish, Japanese, and Korean. See each release page for installation instructions and requirements.
+The Mac apps are free and open source. See each project for supported Mac models, language options, and installation instructions.
 
 ## Repository layout
 
